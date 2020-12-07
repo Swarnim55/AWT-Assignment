@@ -1,0 +1,40 @@
+:root {
+  --bgcolor: lightcyan;
+  --font: white;
+  --accent1: #bedbbb;
+  --accent2: #8db596; 
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color:var(--bgcolor);
+}
+
+h1 {
+    margin: 0 !important;
+    padding: 70px;
+}
+
+.header {
+    text-align: center;
+    background-color: lightblue;   
+    color: var(--font); 
+}
+
+
+
+a {
+    color: var(--font) !important; 
+}
+
+.footer {
+
+
+   width: 100%;
+   background-color: lightblue;
+   color: white;
+   text-align: center;
+}
